@@ -27,6 +27,43 @@ body {
     background-color: #292f36 ;
 }
 
+.menu {
+    display: none;
+    position: fixed;
+    top: 0;
+    background-color:#292f36;
+    box-shadow: 6px 0 rgba($color: #000000, $alpha: 0.3);
+    width: 100%;
+    max-width: 250px;
+    height: 100vh;
+    z-index: 4;
+    
+
+    #close {
+        padding: 20px 0 0 20px;
+        filter: brightness(300%);
+        width: 100%;
+        max-width: 40px;
+    }
+
+    ul {
+        margin-top: 40px;
+        padding-left: 20px;
+    }
+
+    li {
+        list-style: none;
+        font-family: $roboto;
+        line-height: 50px;
+        font-size: 18px;
+
+        a {
+            text-decoration: none;
+            color: #4ecdc4;
+        }
+    }
+}
+
 .navbar {
     box-shadow: 0 4px rgba($color: #000000, $alpha: 0.25);
     height: 56px;
