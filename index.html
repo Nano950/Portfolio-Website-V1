@@ -6,49 +6,37 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;600&family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/style.css">
 
     <title>Dakota Hanks</title>
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
-                <li class="nav-item">about me</li>
-                <li class="nav-item">projects</li>
-                <li class="nav-item">contact</li>
-                <li class="resume"><a target="_blank" href="#">resume</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-lg ">
+            <img id="menu-icon" src="./images/icon-hamburger.svg" alt="">
         </nav>
     </header>
     <main>
-        <section class = "hero">
-            <h1 class = "hero__small-header">Hey! my name is</h1>
-            <h2 class = "hero__big-header">Dakota Hanks</h2>
-            <p class = "hero__text">I build interactive websites that run across all platforms and devices.</p>
-        </section>
-
-        <section class = "about-me">
-            <h1></h1>
-            <img src="#">
-            <p>Hi! My name is Dakota Hanks and since I was little, I have always loved to create and learn new things. I first got intrested in web development back in middle schoo, where I started to learn HTML and CSS. I'm always searching for new learning opportunites and chances to expand and grow my knowledge. </p>
-            <p>While I am msot familiar with HTML5, CSS3, and Javascript, here are some of the other technologies that I know:</p>
-            <ul class ="about-me__skill-list"></ul>
-        </section>
-
-        <section class = "projects">
-            <ul class="projects__list">
-                <li class="projects__list-item"></li>
-                <li class="projects__list-item"></li>
-                <li class="projects__list-item"></li>
-            </ul>
-        </section>
-
-        <section class = "contact"></section>
+        <div class="container">
+            <p class="tag">&ltSection&gt</p>
+            <div class="text-container">
+                <p class="hero-supertext">Hi! my name is</p>
+                <h1>Dakota Hanks</h1>
+                <p class="hero-description">I make dynamic and responsive websites.</p>
+            </div>
+            <p class="tag">&lt/Section&gt</p>
+        </div>
+        <div class="container">
+            <p class="tag">&ltSection&gt</p>
+            <h2>About</h2>
+            <p></p>
+            <img src="" alt="">
+            <p class="tag">&lt/Section&gt</p>
+        </div>
     </main>
-    <footer>
 
-    </footer>
     
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </body>
 </html>
