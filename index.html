@@ -13,9 +13,14 @@
     <header>
         <nav class="navbar navbar-expand-lg ">
             <img id="menu-icon" src="./images/icon-hamburger.svg" alt="" onclick="openMobileMenu()">
+            <ul class="nav-links" style="display: none;">
+                <li><a href="#About">About</a></li>
+                <li><a href="#Skills">Skills</a></li>
+                <li><a href="#Projects">Projects</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
         </nav>
-    </header>
-    <main>
+        
         <div id="menu" class="menu">
             <img id="close" src="./images/icon-close.svg" onclick="closeMobileMenu()">
             <ul>
@@ -25,6 +30,8 @@
                 <li><a href="#Contact" onclick="closeMobileMenu()">Contact</a></li>
             </ul>
         </div>
+    </header>
+    <main>   
         <div class="container hero-section">
             <p class="tag">&ltSection&gt</p>
             <div class="text-container">
@@ -59,7 +66,7 @@
         <div id="Projects" class="projects-section container">
             <p class="tag">&ltSection&gt</p>
             <h2>Projects</h2>
-            <div class="projects-section-container">
+            <div class="projects-section-container" >
                 <div class="card" style="width: 18rem;">
                     <img src="./images/product-page.png" class="card-img-top" alt="...">
                     <div class="card-body">
