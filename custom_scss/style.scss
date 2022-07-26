@@ -177,3 +177,31 @@ body {
         }
     }
 }
+
+.contact-section {
+    h2 {
+        @include mobile-section-title();
+    }
+
+    .contact-section_discription {
+        @include text();
+        font-family: $roboto;
+        text-align: center;
+    }
+
+    form {
+        label {
+          @include text();
+        }   
+
+        .form-label {
+          margin-top: 20px;
+        }   
+
+        .btn-primary { 
+            background-color: #ff6b6b;
+            border: #ff6b6b;
+            margin-top: 20px;
+        }
+    }
+}
