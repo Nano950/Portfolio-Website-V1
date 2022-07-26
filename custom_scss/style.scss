@@ -125,3 +125,55 @@ body {
     }
 }
 
+.projects-section {
+
+    h2 {
+        @include mobile-section-title();
+    }
+
+    .projects-section-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .card {
+            margin-bottom: 25px;
+            border:#292f36;
+            box-shadow: 4px 4px rgba($color: #000000, $alpha: 0.25);
+
+            .card-img-top, .card-body {
+                background-color: #292f36;
+                border:#292f36;
+
+            }
+
+            .card-title {
+                color: #4ecdc4;
+                font-family: $inter;
+                font-weight: 700;
+            }
+
+            .card-body {
+
+                .btn {
+                    box-shadow: 3px 3px rgba($color: #000000, $alpha: 0.25);
+                    color: #000000;
+                    font: $inter;
+
+                    img {
+                        width: 24px;
+                    }
+                }
+
+                .btn-primary {
+                    background-color:#ff6b6b ;
+                    border: #ff6b6b;
+                }
+            }
+
+            .card-text {
+                color: rgba($color: white, $alpha: 0.7);
+            }
+        }
+    }
+}
